@@ -1,7 +1,7 @@
 #!/bin/bash
 
 git clone https://github.com/spyral-ai/scripts.git
-cp -r scripts/nvim ~/.config/nvim
+cp -R scripts/nvim ~/.config/nvim
 
 sudo apt install -y git-all
 sudo apt install -y lua5.4
